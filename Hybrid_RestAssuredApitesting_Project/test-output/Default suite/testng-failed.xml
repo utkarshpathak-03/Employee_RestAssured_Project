@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.EmployeeApi.TestCases.TC002_Get_Single_Employee_Data">
+        <methods>
+          <include name="checkStatuscode"/>
+          <include name="checkResponseBody"/>
+          <include name="TearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="Setup"/>
+          <include name="getAllEmployeesDetails"/>
+        </methods>
+      </class> <!-- com.EmployeeApi.TestCases.TC002_Get_Single_Employee_Data -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

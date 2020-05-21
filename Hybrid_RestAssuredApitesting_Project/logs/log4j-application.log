@@ -1,0 +1,424 @@
+01:54:30,142  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:32 - *************Started TC001_Get_All_Employees_Record**************
+01:54:32,573  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC003_POST_Employee_Record**************
+01:54:34,967  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:36 - *************Started TC005_Delete_Employee_Record**************
+01:54:37,436  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Content Encoding*********************
+01:54:37,436  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Content Encoding===>gzip
+01:54:37,443  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:105 - ***************Checking Content length*********************
+01:54:37,444  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:107 - Content Type===>595
+01:54:37,449  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Content Type*********************
+01:54:37,450  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Content Type===>application/json;charset=utf-8
+01:54:37,454  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:40 - *************Checking response Body***************
+01:54:37,456  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:42 - Response body ===>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+01:54:37,460  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - ***************Checking Response Time*****************
+01:54:37,460  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Response time ===>1182
+01:54:37,464  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - ***************Checking Server Type*********************
+01:54:37,465  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - Server Type ===>nginx/1.16.0
+01:54:37,470  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:69 - ***************Checking Status Line*********************
+01:54:37,471  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:71 - Status Line ===>HTTP/1.1 200 OK
+01:54:37,474  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - **************Checking Status Code***************
+01:54:37,474  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Status Code ===>200
+01:54:37,485  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+01:54:39,195  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:38 - response==>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+01:54:41,200  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - ***************Checking Content Type*********************
+01:54:41,201  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:85 - Content Type===>application/json;charset=utf-8
+01:54:41,207  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - *************Checking response Body***************
+01:54:41,208  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:47 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+01:54:41,213  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:61 - ***************Checking Response Time*****************
+01:54:41,213  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:63 - Response time ===>1703
+01:54:41,216  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:93 - ***************Checking Server Type*********************
+01:54:41,217  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:95 - Server Type ===>nginx/1.16.0
+01:54:41,221  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:74 - ***************Checking Status Line*********************
+01:54:41,221  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:76 - Status Line ===>HTTP/1.1 400 Bad Request
+01:54:41,226  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:53 - **************Checking Status Code***************
+01:54:41,226  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:55 - Status Code ===>400
+01:54:41,230  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:87 - ***************Checking Content Type*********************
+01:54:41,231  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:89 - Content Type===>application/json;charset=utf-8
+01:54:41,235  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:49 - *************Checking response Body***************
+01:54:41,236  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:51 - Response body ===>{"status":"success","data":{"name":"HannahFoQ","salary":"66844","age":"70","id":47}}
+01:54:41,239  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:65 - ***************Checking Response Time*****************
+01:54:41,239  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response time ===>1343
+01:54:41,242  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Server Type*********************
+01:54:41,242  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Server Type ===>nginx/1.16.0
+01:54:41,245  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Status Line*********************
+01:54:41,245  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Status Line ===>HTTP/1.1 200 OK
+01:54:41,247  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:57 - **************Checking Status Code***************
+01:54:41,248  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:59 - Status Code ===>200
+01:54:41,252  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:35 - *************Started TC_004_Update_Existing_Employee_Record**************
+01:54:42,680  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - response==>{"status":"success","data":null}
+01:54:44,683  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - ***************Checking Content Type*********************
+01:54:44,683  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - Content Type===>application/json;charset=utf-8
+01:54:44,687  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - *************Checking response Body***************
+01:54:44,688  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Response body ===>{"status":"success","data":null}
+01:54:44,693  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:68 - ***************Checking Response Time*****************
+01:54:44,694  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:70 - Response time ===>1418
+01:54:44,697  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:100 - ***************Checking Server Type*********************
+01:54:44,697  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:102 - Server Type ===>nginx/1.16.0
+01:54:44,702  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:81 - ***************Checking Status Line*********************
+01:54:44,702  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - Status Line ===>HTTP/1.1 200 OK
+01:54:44,705  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - **************Checking Status Code***************
+01:54:44,706  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Status Code ===>200
+01:54:44,713  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:86 - ***************Checking Content Type*********************
+01:54:44,713  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - Content Type===>application/json;charset=utf-8
+01:54:44,717  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - *************Checking response Body***************
+01:54:44,717  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Response body ===>{"status":"failed","message":"Error! Not able to delete record"}
+01:54:44,720  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:64 - ***************Checking Response Time*****************
+01:54:44,721  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response time ===>1325
+01:54:44,724  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:96 - ***************Checking Server Type*********************
+01:54:44,725  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:98 - Server Type ===>nginx/1.16.0
+01:54:44,727  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:77 - ***************Checking Status Line*********************
+01:54:44,727  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:79 - Status Line ===>HTTP/1.1 200 OK
+01:54:44,733  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - **************Checking Status Code***************
+01:54:44,734  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Status Code ===>200
+01:54:44,736  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:118 - *******************TC001_Get_All_Employees_Record FINISHED*****************
+01:54:44,738  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:104 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+01:54:44,739  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:108 - *******************TC003_POST_Employee_Record FINISHED*****************
+01:54:44,739  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:111 - *******************TC_004_Update_Existing_Employee_Record FINISHED*****************
+01:54:44,740  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:106 - *******************TC005_Delete_Employee_Record FINISHED*****************
+11:37:03,280  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+11:37:07,757  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:38 - response==>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+11:37:12,794  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - ***************Checking Content Type*********************
+11:37:12,795  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:85 - Content Type===>application/json;charset=utf-8
+11:37:12,808  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - *************Checking response Body***************
+11:37:12,809  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:47 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+11:37:12,820  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:61 - ***************Checking Response Time*****************
+11:37:12,826  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:63 - Response time ===>2821
+11:37:12,827  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response Time is Greater than 2000
+11:37:12,837  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:93 - ***************Checking Server Type*********************
+11:37:12,838  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:95 - Server Type ===>nginx/1.16.0
+11:37:12,846  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:74 - ***************Checking Status Line*********************
+11:37:12,846  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:76 - Status Line ===>HTTP/1.1 400 Bad Request
+11:37:12,853  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:53 - **************Checking Status Code***************
+11:37:12,854  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:55 - Status Code ===>400
+11:37:12,861  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:104 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+11:38:01,995  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+11:38:10,475  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+11:38:10,475  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+11:38:10,485  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+11:38:10,512  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+11:38:10,518  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+11:38:10,519  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>2304
+11:38:10,520  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response Time is Greater than 2000
+11:38:10,527  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+11:38:10,528  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+11:38:10,532  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+11:38:10,532  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+11:38:10,537  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+11:38:10,537  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+11:38:10,543  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+11:38:38,419  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+11:38:46,945  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+11:38:46,945  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+11:38:46,955  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+11:38:46,983  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+11:38:46,990  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+11:38:46,991  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>2243
+11:38:46,991  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response Time is Greater than 2000
+11:38:46,996  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+11:38:46,996  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+11:38:47,002  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+11:38:47,003  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+11:38:47,008  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+11:38:47,008  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+11:38:47,015  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+00:34:59,413  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:32 - *************Started TC001_Get_All_Employees_Record**************
+00:35:02,956  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC003_POST_Employee_Record**************
+00:35:05,287  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:36 - *************Started TC005_Delete_Employee_Record**************
+00:35:08,203  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Content Encoding*********************
+00:35:08,204  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Content Encoding===>gzip
+00:35:08,209  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:105 - ***************Checking Content length*********************
+00:35:08,209  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:107 - Content Type===>595
+00:35:08,211  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Content Type*********************
+00:35:08,211  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Content Type===>application/json;charset=utf-8
+00:35:08,213  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:40 - *************Checking response Body***************
+00:35:08,213  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:42 - Response body ===>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+00:35:08,215  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - ***************Checking Response Time*****************
+00:35:08,216  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Response time ===>1827
+00:35:08,217  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - ***************Checking Server Type*********************
+00:35:08,218  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - Server Type ===>nginx/1.16.0
+00:35:08,219  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:69 - ***************Checking Status Line*********************
+00:35:08,221  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:71 - Status Line ===>HTTP/1.1 200 OK
+00:35:08,222  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - **************Checking Status Code***************
+00:35:08,222  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Status Code ===>200
+00:35:08,232  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+00:35:14,258  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+00:35:14,259  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+00:35:14,263  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+00:35:14,272  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+00:35:14,279  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+00:35:14,279  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>1013
+00:35:14,280  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+00:35:14,281  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+00:35:14,281  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+00:35:14,282  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+00:35:14,283  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+00:35:14,283  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+00:35:14,286  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:87 - ***************Checking Content Type*********************
+00:35:14,287  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:89 - Content Type===>application/json;charset=utf-8
+00:35:14,288  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:49 - *************Checking response Body***************
+00:35:14,289  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:51 - Response body ===>{"status":"success","data":{"name":"HannahLqN","salary":"08791","age":"60","id":89}}
+00:35:14,290  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:65 - ***************Checking Response Time*****************
+00:35:14,290  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response time ===>1302
+00:35:14,291  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Server Type*********************
+00:35:14,291  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Server Type ===>nginx/1.16.0
+00:35:14,293  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Status Line*********************
+00:35:14,294  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Status Line ===>HTTP/1.1 200 OK
+00:35:14,294  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:57 - **************Checking Status Code***************
+00:35:14,295  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:59 - Status Code ===>200
+00:35:14,298  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:35 - *************Started TC_004_Update_Existing_Employee_Record**************
+00:35:15,544  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - response==>{"status":"success","data":null}
+00:35:17,546  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - ***************Checking Content Type*********************
+00:35:17,546  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - Content Type===>application/json;charset=utf-8
+00:35:17,548  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - *************Checking response Body***************
+00:35:17,549  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Response body ===>{"status":"success","data":null}
+00:35:17,555  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:68 - ***************Checking Response Time*****************
+00:35:17,555  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:70 - Response time ===>1237
+00:35:17,557  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:100 - ***************Checking Server Type*********************
+00:35:17,557  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:102 - Server Type ===>nginx/1.16.0
+00:35:17,559  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:81 - ***************Checking Status Line*********************
+00:35:17,559  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - Status Line ===>HTTP/1.1 200 OK
+00:35:17,561  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - **************Checking Status Code***************
+00:35:17,562  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Status Code ===>200
+00:35:17,566  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:86 - ***************Checking Content Type*********************
+00:35:17,567  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - Content Type===>application/json;charset=utf-8
+00:35:17,569  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - *************Checking response Body***************
+00:35:17,570  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Response body ===>{"status":"failed","message":"Error! Not able to delete record"}
+00:35:17,571  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:64 - ***************Checking Response Time*****************
+00:35:17,572  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response time ===>1237
+00:35:17,573  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:96 - ***************Checking Server Type*********************
+00:35:17,574  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:98 - Server Type ===>nginx/1.16.0
+00:35:17,576  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:77 - ***************Checking Status Line*********************
+00:35:17,577  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:79 - Status Line ===>HTTP/1.1 200 OK
+00:35:17,578  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - **************Checking Status Code***************
+00:35:17,579  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Status Code ===>200
+00:35:17,580  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:118 - *******************TC001_Get_All_Employees_Record FINISHED*****************
+00:35:17,581  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+00:35:17,582  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:108 - *******************TC003_POST_Employee_Record FINISHED*****************
+00:35:17,582  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:111 - *******************TC_004_Update_Existing_Employee_Record FINISHED*****************
+00:35:17,583  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:106 - *******************TC005_Delete_Employee_Record FINISHED*****************
+01:20:00,693  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:32 - *************Started TC001_Get_All_Employees_Record**************
+01:20:04,743  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC003_POST_Employee_Record**************
+01:20:06,913  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:36 - *************Started TC005_Delete_Employee_Record**************
+01:20:09,681  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Content Encoding*********************
+01:20:09,682  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Content Encoding===>gzip
+01:20:09,689  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:105 - ***************Checking Content length*********************
+01:20:09,689  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:107 - Content Type===>595
+01:20:09,691  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Content Type*********************
+01:20:09,691  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Content Type===>application/json;charset=utf-8
+01:20:09,692  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:40 - *************Checking response Body***************
+01:20:09,693  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:42 - Response body ===>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+01:20:09,695  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - ***************Checking Response Time*****************
+01:20:09,696  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Response time ===>2448
+01:20:09,696  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response Time is Greater than 2000
+01:20:09,698  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - ***************Checking Server Type*********************
+01:20:09,699  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - Server Type ===>nginx/1.16.0
+01:20:09,702  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:69 - ***************Checking Status Line*********************
+01:20:09,703  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:71 - Status Line ===>HTTP/1.1 200 OK
+01:20:09,705  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - **************Checking Status Code***************
+01:20:09,705  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Status Code ===>200
+01:20:09,713  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+01:20:15,771  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+01:20:15,772  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+01:20:15,774  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+01:20:15,776  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+01:20:15,788  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+01:20:15,789  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>1042
+01:20:15,791  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+01:20:15,792  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+01:20:15,794  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+01:20:15,795  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+01:20:15,797  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+01:20:15,797  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+01:20:15,798  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:87 - ***************Checking Content Type*********************
+01:20:15,799  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:89 - Content Type===>application/json;charset=utf-8
+01:20:15,800  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:49 - *************Checking response Body***************
+01:20:15,801  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:51 - Response body ===>{"status":"success","data":{"name":"HannahTso","salary":"23564","age":"98","id":40}}
+01:20:15,802  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:65 - ***************Checking Response Time*****************
+01:20:15,802  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response time ===>1140
+01:20:15,803  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Server Type*********************
+01:20:15,804  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Server Type ===>nginx/1.16.0
+01:20:15,806  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Status Line*********************
+01:20:15,806  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Status Line ===>HTTP/1.1 200 OK
+01:20:15,808  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:57 - **************Checking Status Code***************
+01:20:15,809  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:59 - Status Code ===>200
+01:20:15,814  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:35 - *************Started TC_004_Update_Existing_Employee_Record**************
+01:20:17,097  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - response==>{"status":"success","data":null}
+01:20:19,102  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - ***************Checking Content Type*********************
+01:20:19,103  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - Content Type===>application/json;charset=utf-8
+01:20:19,105  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - *************Checking response Body***************
+01:20:19,106  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Response body ===>{"status":"success","data":null}
+01:20:19,109  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:68 - ***************Checking Response Time*****************
+01:20:19,110  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:70 - Response time ===>1273
+01:20:19,112  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:100 - ***************Checking Server Type*********************
+01:20:19,113  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:102 - Server Type ===>nginx/1.16.0
+01:20:19,115  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:81 - ***************Checking Status Line*********************
+01:20:19,116  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - Status Line ===>HTTP/1.1 200 OK
+01:20:19,117  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - **************Checking Status Code***************
+01:20:19,135  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Status Code ===>200
+01:20:19,143  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:86 - ***************Checking Content Type*********************
+01:20:19,143  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - Content Type===>application/json;charset=utf-8
+01:20:19,144  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - *************Checking response Body***************
+01:20:19,146  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Response body ===>{"status":"failed","message":"Error! Not able to delete record"}
+01:20:19,147  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:64 - ***************Checking Response Time*****************
+01:20:19,148  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response time ===>1605
+01:20:19,149  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:96 - ***************Checking Server Type*********************
+01:20:19,149  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:98 - Server Type ===>nginx/1.16.0
+01:20:19,151  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:77 - ***************Checking Status Line*********************
+01:20:19,151  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:79 - Status Line ===>HTTP/1.1 200 OK
+01:20:19,152  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - **************Checking Status Code***************
+01:20:19,153  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Status Code ===>200
+01:20:19,154  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:118 - *******************TC001_Get_All_Employees_Record FINISHED*****************
+01:20:19,155  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+01:20:19,156  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:108 - *******************TC003_POST_Employee_Record FINISHED*****************
+01:20:19,157  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:111 - *******************TC_004_Update_Existing_Employee_Record FINISHED*****************
+01:20:19,157  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:106 - *******************TC005_Delete_Employee_Record FINISHED*****************
+02:13:18,223  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:32 - *************Started TC001_Get_All_Employees_Record**************
+02:13:21,670  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC003_POST_Employee_Record**************
+02:13:24,373  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:36 - *************Started TC005_Delete_Employee_Record**************
+02:13:27,717  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Content Encoding*********************
+02:13:27,718  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Content Encoding===>gzip
+02:13:27,725  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:105 - ***************Checking Content length*********************
+02:13:27,726  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:107 - Content Type===>595
+02:13:27,727  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Content Type*********************
+02:13:27,728  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Content Type===>application/json;charset=utf-8
+02:13:27,730  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:40 - *************Checking response Body***************
+02:13:27,731  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:42 - Response body ===>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+02:13:27,733  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - ***************Checking Response Time*****************
+02:13:27,734  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Response time ===>1701
+02:13:27,735  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - ***************Checking Server Type*********************
+02:13:27,736  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - Server Type ===>nginx/1.16.0
+02:13:27,737  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:69 - ***************Checking Status Line*********************
+02:13:27,740  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:71 - Status Line ===>HTTP/1.1 200 OK
+02:13:27,741  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - **************Checking Status Code***************
+02:13:27,742  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Status Code ===>200
+02:13:27,750  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+02:13:33,682  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+02:13:33,683  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+02:13:33,685  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+02:13:33,687  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+02:13:33,700  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+02:13:33,700  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>922
+02:13:33,702  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+02:13:33,703  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+02:13:33,704  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+02:13:33,706  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+02:13:33,708  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+02:13:33,708  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+02:13:33,710  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:87 - ***************Checking Content Type*********************
+02:13:33,711  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:89 - Content Type===>application/json;charset=utf-8
+02:13:33,713  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:49 - *************Checking response Body***************
+02:13:33,714  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:51 - Response body ===>{"status":"success","data":{"name":"HannahfIa","salary":"95605","age":"35","id":31}}
+02:13:33,715  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:65 - ***************Checking Response Time*****************
+02:13:33,715  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response time ===>1674
+02:13:33,717  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Server Type*********************
+02:13:33,718  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Server Type ===>nginx/1.16.0
+02:13:33,720  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Status Line*********************
+02:13:33,721  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Status Line ===>HTTP/1.1 200 OK
+02:13:33,722  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:57 - **************Checking Status Code***************
+02:13:33,723  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:59 - Status Code ===>200
+02:13:33,728  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:35 - *************Started TC_004_Update_Existing_Employee_Record**************
+02:13:34,753  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - response==>{"status":"success","data":null}
+02:13:36,755  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - ***************Checking Content Type*********************
+02:13:36,760  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - Content Type===>application/json;charset=utf-8
+02:13:36,762  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - *************Checking response Body***************
+02:13:36,764  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Response body ===>{"status":"success","data":null}
+02:13:36,785  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:68 - ***************Checking Response Time*****************
+02:13:36,785  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:70 - Response time ===>1017
+02:13:36,788  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:100 - ***************Checking Server Type*********************
+02:13:36,789  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:102 - Server Type ===>nginx/1.16.0
+02:13:36,791  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:81 - ***************Checking Status Line*********************
+02:13:36,792  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - Status Line ===>HTTP/1.1 200 OK
+02:13:36,793  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - **************Checking Status Code***************
+02:13:36,794  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Status Code ===>200
+02:13:36,798  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:86 - ***************Checking Content Type*********************
+02:13:36,798  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - Content Type===>application/json;charset=utf-8
+02:13:36,799  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - *************Checking response Body***************
+02:13:36,800  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Response body ===>{"status":"failed","message":"Error! Not able to delete record"}
+02:13:36,801  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:64 - ***************Checking Response Time*****************
+02:13:36,801  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response time ===>1198
+02:13:36,802  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:96 - ***************Checking Server Type*********************
+02:13:36,803  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:98 - Server Type ===>nginx/1.16.0
+02:13:36,804  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:77 - ***************Checking Status Line*********************
+02:13:36,804  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:79 - Status Line ===>HTTP/1.1 200 OK
+02:13:36,807  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - **************Checking Status Code***************
+02:13:36,807  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Status Code ===>200
+02:13:36,808  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:118 - *******************TC001_Get_All_Employees_Record FINISHED*****************
+02:13:36,809  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+02:13:36,810  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:108 - *******************TC003_POST_Employee_Record FINISHED*****************
+02:13:36,810  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:111 - *******************TC_004_Update_Existing_Employee_Record FINISHED*****************
+02:13:36,811  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:106 - *******************TC005_Delete_Employee_Record FINISHED*****************
+13:52:04,488  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:32 - *************Started TC001_Get_All_Employees_Record**************
+13:52:09,450  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC003_POST_Employee_Record**************
+13:52:12,218  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:36 - *************Started TC005_Delete_Employee_Record**************
+13:52:14,491  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Content Encoding*********************
+13:52:14,492  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Content Encoding===>gzip
+13:52:14,496  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:105 - ***************Checking Content length*********************
+13:52:14,497  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:107 - Content Type===>595
+13:52:14,498  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Content Type*********************
+13:52:14,498  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Content Type===>application/json;charset=utf-8
+13:52:14,500  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:40 - *************Checking response Body***************
+13:52:14,501  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:42 - Response body ===>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+13:52:14,503  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - ***************Checking Response Time*****************
+13:52:14,504  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Response time ===>2995
+13:52:14,505  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response Time is Greater than 2000
+13:52:14,506  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - ***************Checking Server Type*********************
+13:52:14,507  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - Server Type ===>nginx/1.16.0
+13:52:14,511  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:69 - ***************Checking Status Line*********************
+13:52:14,511  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:71 - Status Line ===>HTTP/1.1 200 OK
+13:52:14,512  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - **************Checking Status Code***************
+13:52:14,513  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Status Code ===>200
+13:52:14,523  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:34 - *************Started TC002_Get_Single_Employee_Data**************
+13:52:20,917  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:82 - ***************Checking Content Type*********************
+13:52:20,917  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:84 - Content Type===>application/json;charset=utf-8
+13:52:20,919  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:44 - *************Checking response Body***************
+13:52:20,920  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:46 - Response body ===>{"status":"failed","message":"Oops! someting issue found to fetch record."}
+13:52:20,931  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - ***************Checking Response Time*****************
+13:52:20,931  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Response time ===>1384
+13:52:20,932  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - ***************Checking Server Type*********************
+13:52:20,933  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:94 - Server Type ===>nginx/1.16.0
+13:52:20,934  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:73 - ***************Checking Status Line*********************
+13:52:20,934  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:75 - Status Line ===>HTTP/1.1 400 Bad Request
+13:52:20,935  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - **************Checking Status Code***************
+13:52:20,936  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Status Code ===>400
+13:52:20,937  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:87 - ***************Checking Content Type*********************
+13:52:20,938  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:89 - Content Type===>application/json;charset=utf-8
+13:52:20,939  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:49 - *************Checking response Body***************
+13:52:20,940  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:51 - Response body ===>{"status":"success","data":{"name":"HannahPCB","salary":"60199","age":"50","id":84}}
+13:52:20,941  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:65 - ***************Checking Response Time*****************
+13:52:20,941  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:67 - Response time ===>1734
+13:52:20,942  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:97 - ***************Checking Server Type*********************
+13:52:20,943  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:99 - Server Type ===>nginx/1.16.0
+13:52:20,944  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:78 - ***************Checking Status Line*********************
+13:52:20,944  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:80 - Status Line ===>HTTP/1.1 200 OK
+13:52:20,945  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:57 - **************Checking Status Code***************
+13:52:20,946  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:59 - Status Code ===>200
+13:52:20,949  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:35 - *************Started TC_004_Update_Existing_Employee_Record**************
+13:52:22,058  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:45 - response==>{"status":"success","data":null}
+13:52:24,066  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:90 - ***************Checking Content Type*********************
+13:52:24,066  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:92 - Content Type===>application/json;charset=utf-8
+13:52:24,068  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:52 - *************Checking response Body***************
+13:52:24,069  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:54 - Response body ===>{"status":"success","data":null}
+13:52:24,072  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:68 - ***************Checking Response Time*****************
+13:52:24,073  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:70 - Response time ===>1097
+13:52:24,075  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:100 - ***************Checking Server Type*********************
+13:52:24,075  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:102 - Server Type ===>nginx/1.16.0
+13:52:24,077  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:81 - ***************Checking Status Line*********************
+13:52:24,078  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:83 - Status Line ===>HTTP/1.1 200 OK
+13:52:24,079  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:60 - **************Checking Status Code***************
+13:52:24,079  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:62 - Status Code ===>200
+13:52:24,084  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:86 - ***************Checking Content Type*********************
+13:52:24,085  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:88 - Content Type===>application/json;charset=utf-8
+13:52:24,086  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:48 - *************Checking response Body***************
+13:52:24,087  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:50 - Response body ===>{"status":"failed","message":"Error! Not able to delete record"}
+13:52:24,088  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:64 - ***************Checking Response Time*****************
+13:52:24,088  WARN com.EmployeeApi.Base.TestBase<strong>{1}</strong>:66 - Response time ===>963
+13:52:24,090  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:96 - ***************Checking Server Type*********************
+13:52:24,090  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:98 - Server Type ===>nginx/1.16.0
+13:52:24,092  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:77 - ***************Checking Status Line*********************
+13:52:24,092  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:79 - Status Line ===>HTTP/1.1 200 OK
+13:52:24,095  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:56 - **************Checking Status Code***************
+13:52:24,095  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:58 - Status Code ===>200
+13:52:24,096  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:118 - *******************TC001_Get_All_Employees_Record FINISHED*****************
+13:52:24,097  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:103 - *******************TC002_Get_Single_Employee_Data FINISHED*****************
+13:52:24,098  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:108 - *******************TC003_POST_Employee_Record FINISHED*****************
+13:52:24,099  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:111 - *******************TC_004_Update_Existing_Employee_Record FINISHED*****************
+13:52:24,100  INFO com.EmployeeApi.Base.TestBase<strong>{1}</strong>:106 - *******************TC005_Delete_Employee_Record FINISHED*****************
